@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include marso *.css
+recursive-include marso *.csv
+recursive-include marso *.html
+recursive-include marso *.ico
+recursive-include marso *.js
+recursive-include marso *.json
+recursive-include marso *.md
+recursive-include marso *.png
+recursive-include marso *.py
+recursive-include marso *.svg
+recursive-include marso *.txt
+recursive-exclude marso *.pyc
