@@ -35,6 +35,7 @@ class Basket :
 
     
     def returned_data(self):
-        context = {"items": self.basket , "delivery_note" : str(self.document)}
-        return context
+        document =  ' '.join(map(str, list(self.document)))
+        context_data = {"items_data": self.basket , "delivery_note" : document}
+        return context_data
 

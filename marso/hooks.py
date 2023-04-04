@@ -95,18 +95,17 @@ doctype_js = {"Sales Invoice" : "public/js/sales_invoice.js"}
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"Sales Invoice": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	},
-# 	"Delivery Note": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"Sales Invoice": {
+		"on_submit": "marso.override.sales_invoice_on_submit",
+        "on_cancel": "marso.override.sales_invoice_on_cancel",
+	},
+	# "Delivery Note": {
+	# 	"on_update": "method",
+	# 	"on_cancel": "method",
+	# 	"on_trash": "method"
+	# }
+}
 
 # Scheduled Tasks
 # ---------------
@@ -184,3 +183,13 @@ user_data_fields = [
 #	"marso.auth.validate"
 # ]
 
+fixtures = [
+    {
+        "dt": ("Custom Field"),
+        "filters": [
+    		["dt", "in", ("Sales Invoice")] ,
+            ["fieldname" , "in" ,("merge_items" , "documents")],
+            
+        ]
+    },
+]
