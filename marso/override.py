@@ -4,8 +4,9 @@ import json
 
 @frappe.whitelist()
 def make_item_merge(document):
-    document = json.loads(document)
+    data = json.loads(document)
     basket = Basket()
-    basket.steps_to_merge( document.items)
+    basket.steps_to_merge( data.get('items'))
     new_data = basket.returned_data()
-    document.documents = new_data.get('delivery_note')
+    return  new_data
+    
