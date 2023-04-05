@@ -17,8 +17,9 @@ def sales_invoice_on_submit(doc , event) :
     if doc.documents :
         all_delivery_note = doc.documents.split(" ")
         for delivery in all_delivery_note :
-            delivery_note = frappe.get_doc("Delivery Note", delivery)
-            delivery_note.db_set('per_billed', 100)
+            if frappe.db.exists("Delivery Note", delivery) :
+                delivery_note = frappe.get_doc("Delivery Note", delivery)
+                delivery_note.db_set('per_billed', 100)
 
 
 @frappe.whitelist()
@@ -26,5 +27,6 @@ def sales_invoice_on_cancel(doc,event):
     if doc.documents :
         all_delivery_note = doc.documents.split(" ")
         for delivery in all_delivery_note :
-            delivery_note = frappe.get_doc("Delivery Note", delivery)
-            delivery_note.db_set('per_billed', 0)
+            if frappe.db.exists("Delivery Note", delivery) :
+                delivery_note = frappe.get_doc("Delivery Note", delivery)
+                delivery_note.db_set('per_billed', 0)
