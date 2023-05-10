@@ -1,0 +1,44 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "creation": "2023-05-10 09:19:57.236393",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends": "Quality",
+ "extends_another_page": 1,
+ "hide_custom": 0,
+ "icon": "quality",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Quality EXT",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Production Audit",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Production Audit",
+   "link_to": "Production Audit",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-05-10 09:25:09.146569",
+ "modified_by": "Administrator",
+ "module": "marso",
+ "name": "Quality EXT",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": []
+}
