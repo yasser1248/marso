@@ -1,0 +1,163 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "PA-.#####",
+ "creation": "2023-05-10 08:58:47.754354",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "the_piston",
+  "product",
+  "column_break_5",
+  "shift_type",
+  "number_of_clicks",
+  "first_degree",
+  "section_break_8",
+  "template_number",
+  "decrease",
+  "diameter",
+  "air",
+  "column_break_13",
+  "dough",
+  "chemistry",
+  "cut",
+  "factor",
+  "section_break_18",
+  "notes"
+ ],
+ "fields": [
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "the_piston",
+   "fieldtype": "Link",
+   "label": "The Piston",
+   "options": "Piston Type"
+  },
+  {
+   "fieldname": "product",
+   "fieldtype": "Link",
+   "label": "Product",
+   "options": "Item"
+  },
+  {
+   "fieldname": "template_number",
+   "fieldtype": "Int",
+   "label": "Template Number"
+  },
+  {
+   "fieldname": "shift_type",
+   "fieldtype": "Link",
+   "label": "Shift Type",
+   "options": "Shift Type"
+  },
+  {
+   "fieldname": "number_of_clicks",
+   "fieldtype": "Int",
+   "label": "Number of Clicks"
+  },
+  {
+   "fieldname": "first_degree",
+   "fieldtype": "Int",
+   "label": "First Degree"
+  },
+  {
+   "fieldname": "decrease",
+   "fieldtype": "Int",
+   "label": "Decrease"
+  },
+  {
+   "fieldname": "diameter",
+   "fieldtype": "Int",
+   "label": "Diameter"
+  },
+  {
+   "fieldname": "air",
+   "fieldtype": "Int",
+   "label": "Air"
+  },
+  {
+   "fieldname": "dough",
+   "fieldtype": "Int",
+   "label": "Dough"
+  },
+  {
+   "fieldname": "chemistry",
+   "fieldtype": "Int",
+   "label": "Chemistry"
+  },
+  {
+   "fieldname": "cut",
+   "fieldtype": "Int",
+   "label": "Cut"
+  },
+  {
+   "fieldname": "factor",
+   "fieldtype": "Int",
+   "label": "Factor"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-05-10 09:08:18.942859",
+ "modified_by": "Administrator",
+ "module": "marso",
+ "name": "Production Audit",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Quality Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
