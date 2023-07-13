@@ -187,7 +187,7 @@ fixtures = [
     {
         "dt": ("Custom Field"),
         "filters": [
-    		["dt", "in", ("Sales Invoice" , "Quotation" , "Sales Order" , "Delivery Note" , "Sales Invoice")] ,
+    		["dt", "in", ("Sales Invoice" , "Quotation" , "Sales Order" , "Delivery Note" , "Sales Invoice" , "Item")] ,
             ["fieldname" , "in" ,(
                 "merge_items" , 
                 "documents" , 
@@ -201,6 +201,25 @@ fixtures = [
                 "column_break_rfybn" ,
                 "column_break_bxedb" ,
                 "column_break_uguhr" ,
+                # Add Here
+				"required_thickness" ,
+                "required_before",
+                "required_before_tolerance",
+                "column_break_umdur",
+                "required_after",
+                "required_after_tolerance",
+                "column_break_z7fam",
+                "required_right",
+                "required_right_tolerance",
+                "column_break_jt5zy",
+                "required_left",
+                "required_left_tolerance",
+                "section_break_g61sh",
+                "required_width",
+                "column_break_6t2k6",
+                "required_hardness",
+                "column_break_d5rrx",
+                "required_weight"
 			)],
             
         ]
