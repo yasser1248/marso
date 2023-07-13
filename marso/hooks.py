@@ -187,9 +187,31 @@ fixtures = [
     {
         "dt": ("Custom Field"),
         "filters": [
-    		["dt", "in", ("Sales Invoice")] ,
-            ["fieldname" , "in" ,("merge_items" , "documents")],
+    		["dt", "in", ("Sales Invoice" , "Quotation" , "Sales Order" , "Delivery Note" , "Sales Invoice")] ,
+            ["fieldname" , "in" ,(
+                "merge_items" , 
+                "documents" , 
+                "section_break_kk1k8" ,
+				"notify_name" , 
+				"notify_phone"  ,
+				"column_break_cktr2" ,
+				"notify_email" ,
+				"notify_address" ,
+                "notify_details" ,
+                "column_break_rfybn" ,
+                "column_break_bxedb" ,
+                "column_break_uguhr" ,
+			)],
             
         ]
     },
+    {
+        "doctype": ("Print Format"),
+        "filters": [
+
+			["doc_type", "in",("Quotation") ], 
+			["name"  , "in" , ("Proforma Invoice ( Quotation )")]
+
+		]
+	},
 ]
