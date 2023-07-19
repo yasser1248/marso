@@ -15,7 +15,7 @@ def make_item_merge_sales_invoice(document):
 @frappe.whitelist()
 def sales_invoice_on_submit(doc , event) :
     if doc.documents :
-        all_delivery_note = doc.documents.split(" ")
+        all_delivery_note = doc.documents.split("$")
         for delivery in all_delivery_note :
             if frappe.db.exists("Delivery Note", delivery) :
                 delivery_note = frappe.get_doc("Delivery Note", delivery)

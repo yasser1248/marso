@@ -1,0 +1,310 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "PL.#####",
+ "creation": "2023-07-18 09:28:23.506513",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "commercial_invoice_no",
+  "column_break_q0y9r",
+  "dated",
+  "section_break_lwlpv",
+  "ship_to",
+  "customer_address",
+  "customer_contact",
+  "tel",
+  "column_break_clb59",
+  "fax",
+  "mobile",
+  "section_break_0estv",
+  "packing_list_details",
+  "section_break_mw2om",
+  "total_weight",
+  "column_break_9qamx",
+  "tnw",
+  "column_break_f81hc",
+  "tgw",
+  "section_break_lcauc",
+  "delivary_terms",
+  "column_break_0hqzz",
+  "mode_of_transport",
+  "section_break_9dkfu",
+  "total_number_of_pallet",
+  "column_break_y9k1k",
+  "total_number_of_pvc_bag",
+  "column_break_0nlh3",
+  "packing",
+  "section_break_ssfdo",
+  "country_of_origin",
+  "column_break_v0lyz",
+  "final_destination",
+  "section_break_qy15z",
+  "payment_of_termsdue_date",
+  "column_break_xownn",
+  "payment_against_documents",
+  "section_break_rm5ix",
+  "shipment",
+  "column_break_dbyml",
+  "nb",
+  "section_break_whumj"
+ ],
+ "fields": [
+  {
+   "fieldname": "commercial_invoice_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Commercial Invoice No ",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "ship_to",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Ship To",
+   "options": "Customer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tel",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Tel"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Fax"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Mobile"
+  },
+  {
+   "fieldname": "section_break_0estv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tnw",
+   "fieldtype": "Int",
+   "label": "Total Net Weight"
+  },
+  {
+   "fieldname": "tgw",
+   "fieldtype": "Int",
+   "label": "Total Gross Weight"
+  },
+  {
+   "fieldname": "delivary_terms",
+   "fieldtype": "Data",
+   "label": "Delivary Terms"
+  },
+  {
+   "fieldname": "mode_of_transport",
+   "fieldtype": "Data",
+   "label": "Mode Of Transport"
+  },
+  {
+   "fieldname": "total_number_of_pallet",
+   "fieldtype": "Int",
+   "label": "Total Number of Pallet"
+  },
+  {
+   "fieldname": "total_number_of_pvc_bag",
+   "fieldtype": "Int",
+   "label": "Total Number of P.V.C BAG"
+  },
+  {
+   "fieldname": "packing",
+   "fieldtype": "Data",
+   "label": "Packing"
+  },
+  {
+   "fieldname": "country_of_origin",
+   "fieldtype": "Data",
+   "label": "Country of Origin"
+  },
+  {
+   "fieldname": "final_destination",
+   "fieldtype": "Data",
+   "label": "Final Destination"
+  },
+  {
+   "fieldname": "payment_of_termsdue_date",
+   "fieldtype": "Percent",
+   "label": "Payment Of Terms/Due Date"
+  },
+  {
+   "fieldname": "payment_against_documents",
+   "fieldtype": "Percent",
+   "label": "Payment Against Documents"
+  },
+  {
+   "fieldname": "shipment",
+   "fieldtype": "Date",
+   "label": "Shipment"
+  },
+  {
+   "default": "PROUDLY MADE IN EGYPT",
+   "fieldname": "nb",
+   "fieldtype": "Data",
+   "label": "N.B"
+  },
+  {
+   "fieldname": "packing_list_details",
+   "fieldtype": "Table",
+   "label": "Packing List Details",
+   "options": "Packing List Details",
+   "reqd": 1
+  },
+  {
+   "fieldname": "total_weight",
+   "fieldtype": "Int",
+   "label": "Total Weight"
+  },
+  {
+   "fieldname": "column_break_q0y9r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dated",
+   "fieldtype": "Date",
+   "label": "Dated"
+  },
+  {
+   "fieldname": "section_break_lwlpv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_9qamx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_f81hc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_lcauc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_mw2om",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_0hqzz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_9dkfu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_ssfdo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_v0lyz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_qy15z",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_xownn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_rm5ix",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_dbyml",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_whumj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_clb59",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "column_break_y9k1k",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_0nlh3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_address",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Customer Address",
+   "options": "Address"
+  },
+  {
+   "fieldname": "customer_contact",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Customer Contact",
+   "options": "Contact"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-19 07:40:30.649273",
+ "modified_by": "Administrator",
+ "module": "marso",
+ "name": "Packing List",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

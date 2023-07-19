@@ -229,8 +229,17 @@ fixtures = [
         "filters": [
 
 			["doc_type", "in",("Quotation") ], 
-			["name"  , "in" , ("Proforma Invoice ( Quotation )")]
+			["name"  , "in" , ("Proforma Invoice ( Quotation )" , "Packing List")]
 
 		]
 	},
+    {
+		"dt": ("Workspace"),
+     	"filters": [
+
+			["name", "in", ("Custom Selling")]
+		]
+     },
+
+	
 ]
