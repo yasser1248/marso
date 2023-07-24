@@ -20,6 +20,7 @@ def sales_invoice_on_submit(doc , event) :
             if frappe.db.exists("Delivery Note", delivery) :
                 delivery_note = frappe.get_doc("Delivery Note", delivery)
                 delivery_note.db_set('per_billed', 100)
+                delivery_note.db_set('status', "Completed")
 
 
 @frappe.whitelist()
@@ -30,3 +31,4 @@ def sales_invoice_on_cancel(doc,event):
             if frappe.db.exists("Delivery Note", delivery) :
                 delivery_note = frappe.get_doc("Delivery Note", delivery)
                 delivery_note.db_set('per_billed', 0)
+                delivery_note.db_set('status', "To Bill")
