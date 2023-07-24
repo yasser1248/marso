@@ -224,15 +224,15 @@ fixtures = [
             
         ]
     },
-    {
-        "doctype": ("Print Format"),
-        "filters": [
+    # {
+    #     "doctype": ("Print Format"),
+    #     "filters": [
 
-			["doc_type", "in",("Quotation") ], 
-			["name"  , "in" , ("Proforma Invoice ( Quotation )" , "Packing List")]
+	# 		["doc_type", "in",("Quotation") ], 
+	# 		["name"  , "in" , ("Proforma Invoice ( Quotation )" , "Packing List")]
 
-		]
-	},
+	# 	]
+	# },
     {
 		"dt": ("Workspace"),
      	"filters": [
