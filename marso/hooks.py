@@ -219,7 +219,8 @@ fixtures = [
                 "column_break_6t2k6",
                 "required_hardness",
                 "column_break_d5rrx",
-                "required_weight"
+                "required_weight",
+				"export_details",
 			)],
             
         ]
