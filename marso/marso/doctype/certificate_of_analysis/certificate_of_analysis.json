@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "COA-.######",
+ "creation": "2023-07-24 15:49:41.499757",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "column_break_4z4lq",
+  "product",
+  "section_break_ywtv6",
+  "physical_index",
+  "section_break_4qhrs",
+  "chemical_index"
+ ],
+ "fields": [
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_4z4lq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "product",
+   "fieldtype": "Data",
+   "label": "Product"
+  },
+  {
+   "fieldname": "section_break_ywtv6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_4qhrs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "physical_index",
+   "fieldtype": "Table",
+   "label": "Physical Index",
+   "options": "Test Details",
+   "reqd": 1
+  },
+  {
+   "fieldname": "chemical_index",
+   "fieldtype": "Table",
+   "label": "Chemical Index",
+   "options": "Test Details",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-24 16:25:01.896691",
+ "modified_by": "Administrator",
+ "module": "marso",
+ "name": "Certificate Of Analysis",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
