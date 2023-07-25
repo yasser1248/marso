@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:test_name",
  "creation": "2023-07-24 15:33:53.919718",
@@ -44,7 +45,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-07-24 15:55:12.614302",
+ "modified": "2023-07-25 15:53:13.808422",
  "modified_by": "Administrator",
  "module": "marso",
  "name": "Test Name",
