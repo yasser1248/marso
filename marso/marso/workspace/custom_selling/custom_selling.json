@@ -31,9 +31,36 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Test",
+   "link_to": "Test Name",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Limits",
+   "link_to": "Limits",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Certificate Of Analysis",
+   "link_to": "Certificate Of Analysis",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2023-07-19 08:46:38.808099",
+ "modified": "2023-07-25 13:58:55.768969",
  "modified_by": "Administrator",
  "module": "marso",
  "name": "Custom Selling",
