@@ -1,55 +1,36 @@
 {
  "actions": [],
- "allow_import": 1,
  "allow_rename": 1,
- "autoname": "field:test_name",
- "creation": "2023-07-24 15:33:53.919718",
+ "autoname": "field:name1",
+ "creation": "2023-07-31 08:44:05.658754",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "test_name",
-  "limit",
-  "column_break_jfleb",
-  "methodology",
-  "type"
+  "name1",
+  "description"
  ],
  "fields": [
   {
-   "fieldname": "test_name",
+   "fieldname": "name1",
    "fieldtype": "Data",
-   "label": "Test Name",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1,
    "unique": 1
   },
   {
-   "fieldname": "limit",
-   "fieldtype": "Link",
-   "label": "Limit",
-   "options": "Limits"
-  },
-  {
-   "fieldname": "methodology",
-   "fieldtype": "Link",
-   "label": "Methodology",
-   "options": "Methodology"
-  },
-  {
-   "fieldname": "type",
-   "fieldtype": "Select",
-   "label": "Type",
-   "options": "\nCHEMICAL\nPHYSICAL"
-  },
-  {
-   "fieldname": "column_break_jfleb",
-   "fieldtype": "Column Break"
+   "fieldname": "description",
+   "fieldtype": "Long Text",
+   "label": "Description"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-07-31 08:51:37.857637",
+ "modified": "2023-07-31 09:57:31.232429",
  "modified_by": "Administrator",
  "module": "marso",
- "name": "Test Name",
+ "name": "Methodology",
  "owner": "Administrator",
  "permissions": [
   {
@@ -89,9 +70,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
- "sort_order": "DESC",
- "track_changes": 1,
- "track_seen": 1
+ "sort_order": "DESC"
 }

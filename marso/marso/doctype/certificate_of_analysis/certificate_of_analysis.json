@@ -43,20 +43,18 @@
    "fieldname": "physical_index",
    "fieldtype": "Table",
    "label": "Physical Index",
-   "options": "Test Details",
-   "reqd": 1
+   "options": "Test Details"
   },
   {
    "fieldname": "chemical_index",
    "fieldtype": "Table",
    "label": "Chemical Index",
-   "options": "Test Details",
-   "reqd": 1
+   "options": "Test Details"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-07-24 16:25:01.896691",
+ "modified": "2023-07-31 09:15:25.821852",
  "modified_by": "Administrator",
  "module": "marso",
  "name": "Certificate Of Analysis",

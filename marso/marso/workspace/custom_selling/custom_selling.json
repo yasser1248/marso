@@ -53,6 +53,15 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Methodology",
+   "link_to": "Methodology",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Certificate Of Analysis",
    "link_to": "Certificate Of Analysis",
    "link_type": "DocType",
@@ -60,7 +69,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-07-25 13:58:55.768969",
+ "modified": "2023-07-31 09:52:36.506637",
  "modified_by": "Administrator",
  "module": "marso",
  "name": "Custom Selling",
