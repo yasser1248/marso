@@ -14,3 +14,57 @@ Factor,عامل
 Production Audit,مراقبة الانتاج
 Piston Type,نوع المكبس
 Piston,المكبس
+Daily Production Report,تقرير الانتاج اليومي
+Date,التاريخ
+The Press,المكبس
+Employee ID,العامل
+Product,المنتج
+Shift Type,الوردية
+Number of Presses,عدد الكبسات
+First Degree,الدرجة الاولى
+Second Degree,الدرجة الثانية
+Mould Number,رقم الاسطمبة
+Incomplete Product,عيب النقصان
+Cutter Defect,عيب قطر
+Bubbles Defect,عيب هواء
+Mixer Defect,عيب عجينة
+Mixing Defect,عيب كيميا
+Cut Defect,عيب قطع
+Employee Defect,عيب عامل
+3rd Degree,هالك
+Employee Defect (3rd),خطأ عامل
+Press Defect (3rd),عيب مكبس
+Cut Defect(3rd),عيب قطع
+Scrap Weight,وزن الرايش
+Notes,ملاحظات
+Daily Report of Quality Inspection,تقرير فحص الجودة اليومي
+Check Type,نوع الفحص
+Shift No,الوردية
+Employee ID,العامل
+Posting Date,تاريخ النشر
+Date,التاريخ
+Time,التوقيت
+Machine,الماكينة
+Product,المنتج
+Temperature,درجة الحرارة
+Curing Time,وقت التسوية
+Required Thickness,الثخانة المطلوبة
+Required Before Curing,المطلوبة قبل التسوية
+Required After Curing,المطلوبة بعد التسوية
+Measured Thickness,الثخانة المقاسة
+Measured Before Curing,المقاسة قبل التسوية
+Measured After Curing,المقاسة بعد التسوية
+Required Width,العرض المطلوب
+Measured Width,العرض المقاس
+Surface,السطح
+Measured Right/B,يمين
+Measured Right/A,يمين
+Required Hardness,الصلابة المطلوبة
+Measured Hardness,الصلابة المقاسة
+Defect,العيب
+Measured Left/B,شمال
+Measured Left/A,شمال
+Required Weight,الوزن المطلوب
+Measured Weight,الوزن المقاس
+Scrap Weight,وزن الرايش
+The Result,النتيجة

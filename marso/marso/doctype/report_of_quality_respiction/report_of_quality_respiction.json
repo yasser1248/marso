@@ -176,20 +176,29 @@
    "label": "Measured Before Curing"
   },
   {
+   "fieldname": "measured_after",
+   "fieldtype": "Float",
+   "label": "Measured After Curing"
+  },
+  {
    "fieldname": "measured_before_result",
    "fieldtype": "Float",
    "label": "Measured Before Result",
    "read_only": 1
   },
   {
-   "fieldname": "measured_after",
-   "fieldtype": "Float",
-   "label": "Measured After Curing"
+   "fieldname": "column_break_gcdzp",
+   "fieldtype": "Column Break"
   },
   {
    "fieldname": "measured_right",
    "fieldtype": "Float",
    "label": "Measured Right/B"
+  },
+  {
+   "fieldname": "measured_righta",
+   "fieldtype": "Float",
+   "label": "Measured Right/A"
   },
   {
    "fieldname": "column_break_5vfex",
@@ -199,6 +208,11 @@
    "fieldname": "measured_left",
    "fieldtype": "Float",
    "label": "Measured Left/B"
+  },
+  {
+   "fieldname": "measured_lefta",
+   "fieldtype": "Float",
+   "label": "Measured Left/A"
   },
   {
    "fieldname": "section_break_dpvlt",
@@ -213,6 +227,11 @@
    "fieldname": "measured_width",
    "fieldtype": "Float",
    "label": "Measured Width"
+  },
+  {
+   "fieldname": "sample_weight",
+   "fieldtype": "Float",
+   "label": "Sample Weight"
   },
   {
    "fieldname": "column_break_ucqlo",
@@ -281,37 +300,18 @@
    "fieldtype": "Link",
    "label": "Amended From",
    "no_copy": 1,
-   "options": "Quality Shift",
+   "options": "Report of Quality Respiction",
    "print_hide": 1,
    "read_only": 1
-  },
-  {
-   "fieldname": "column_break_gcdzp",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "measured_righta",
-   "fieldtype": "Float",
-   "label": "Measured Right/A"
-  },
-  {
-   "fieldname": "measured_lefta",
-   "fieldtype": "Float",
-   "label": "Measured Left/A"
-  },
-  {
-   "fieldname": "sample_weight",
-   "fieldtype": "Float",
-   "label": "Sample Weight"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-08-23 13:49:16.568251",
+ "modified": "2023-08-23 13:52:22.354450",
  "modified_by": "Administrator",
  "module": "marso",
- "name": "Quality Shift",
+ "name": "Report of Quality Respiction",
  "owner": "Administrator",
  "permissions": [
   {
