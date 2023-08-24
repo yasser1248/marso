@@ -2,7 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "QS.####",
- "creation": "2023-06-12 09:25:20.499667",
+ "creation": "2023-08-24 14:27:52.755162",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -54,6 +54,7 @@
   "the_defect",
   "column_break_yhuvb",
   "the_result",
+  "amended_from",
   "amended_from"
  ],
  "fields": [
@@ -310,12 +311,21 @@
    "options": "Daily Report of Quality Inspection",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Daily Report of Quality Inspection",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-08-24 08:35:44.502734",
+ "modified": "2023-08-24 14:27:52.755162",
  "modified_by": "Administrator",
  "module": "marso",
  "name": "Daily Report of Quality Inspection",
