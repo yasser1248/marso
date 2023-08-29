@@ -54,7 +54,6 @@
   "the_defect",
   "column_break_yhuvb",
   "the_result",
-  "amended_from",
   "amended_from"
  ],
  "fields": [
@@ -72,6 +71,7 @@
   {
    "fieldname": "employee_id",
    "fieldtype": "Link",
+   "ignore_user_permissions": 1,
    "label": "Employee ID",
    "options": "Employee"
   },
@@ -325,7 +325,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-08-24 14:27:52.755162",
+ "modified": "2023-08-28 15:42:54.672184",
  "modified_by": "Administrator",
  "module": "marso",
  "name": "Daily Report of Quality Inspection",
