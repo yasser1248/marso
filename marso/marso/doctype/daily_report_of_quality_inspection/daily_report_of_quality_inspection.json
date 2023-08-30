@@ -16,9 +16,10 @@
   "date",
   "time",
   "section_break_8cjrx",
-  "machine",
-  "column_break_qvkjh",
   "the_product",
+  "product_details",
+  "column_break_qvkjh",
+  "machine",
   "column_break_iaz0p",
   "the_heat",
   "column_break_psy9k",
@@ -40,10 +41,12 @@
   "section_break_dpvlt",
   "required_width",
   "measured_width",
+  "measured_length",
   "sample_weight",
   "column_break_ucqlo",
   "required_hardness",
   "measured_hardness",
+  "required_length",
   "column_break_pm4zc",
   "required_weight",
   "measured_weight",
@@ -53,6 +56,8 @@
   "column_break_comzp",
   "the_defect",
   "column_break_yhuvb",
+  "second_degree_num",
+  "column_break_ggzwo",
   "the_result",
   "amended_from"
  ],
@@ -65,7 +70,7 @@
   },
   {
    "fieldname": "shift_no",
-   "fieldtype": "Int",
+   "fieldtype": "Data",
    "label": "Shift No"
   },
   {
@@ -301,7 +306,7 @@
    "fieldname": "the_result",
    "fieldtype": "Select",
    "label": "The Result",
-   "options": "\nAccepted\nUnder Inspection\nRejected"
+   "options": "\nAccepted\nUnder Inspection\nSecond Degree\nRejected"
   },
   {
    "fieldname": "amended_from",
@@ -320,12 +325,39 @@
    "options": "Daily Report of Quality Inspection",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fetch_from": "the_product.item_name",
+   "fieldname": "product_details",
+   "fieldtype": "Data",
+   "label": "Product Details",
+   "read_only": 1
+  },
+  {
+   "fieldname": "measured_length",
+   "fieldtype": "Data",
+   "label": "Measured Length"
+  },
+  {
+   "fieldname": "required_length",
+   "fieldtype": "Data",
+   "label": "Required Length"
+  },
+  {
+   "depends_on": "eval:doc.the_defect",
+   "fieldname": "second_degree_num",
+   "fieldtype": "Data",
+   "label": "Second Degree Num"
+  },
+  {
+   "fieldname": "column_break_ggzwo",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-08-28 15:42:54.672184",
+ "modified": "2023-08-30 10:31:11.646460",
  "modified_by": "Administrator",
  "module": "marso",
  "name": "Daily Report of Quality Inspection",
