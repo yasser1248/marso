@@ -10,11 +10,13 @@
   "date",
   "the_piston",
   "employee_id",
+  "actual_production",
   "product",
   "column_break_5",
   "shift_type",
   "number_of_clicks",
   "first_degree",
+  "expected_production",
   "section_break_8",
   "template_number",
   "decrease",
@@ -32,7 +34,11 @@
   "cut_defect3rd",
   "section_break_2vzyd",
   "scrap_weight",
+  "kpis_frist_degree",
   "notes",
+  "column_break_v6tec",
+  "scrap_per_piece",
+  "kpis_second_degree",
   "amended_from"
  ],
  "fields": [
@@ -176,12 +182,41 @@
    "ignore_user_permissions": 1,
    "label": "Employee ID",
    "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_v6tec",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "scrap_per_piece",
+   "fieldtype": "Float",
+   "label": "Scrap per Piece"
+  },
+  {
+   "fieldname": "actual_production",
+   "fieldtype": "Float",
+   "label": "Actual Production"
+  },
+  {
+   "fieldname": "expected_production",
+   "fieldtype": "Float",
+   "label": "Expected Production"
+  },
+  {
+   "fieldname": "kpis_frist_degree",
+   "fieldtype": "Float",
+   "label": "KPI's Frist Degree"
+  },
+  {
+   "fieldname": "kpis_second_degree",
+   "fieldtype": "Float",
+   "label": "KPI's Second Degree"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-08-28 15:36:59.047383",
+ "modified": "2023-09-27 15:56:52.992053",
  "modified_by": "Administrator",
  "module": "marso",
  "name": "Daily Production Report",
