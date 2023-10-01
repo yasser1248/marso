@@ -51,13 +51,13 @@ function calculate(frm) {
 	let total = 0
 	let fields = ["template_number","decrease","diameter","air","dough","chemistry","cut","factor"]
 	for (let i = 0; i <= fields.length ; i++) {
-		if (frm.doc[fields[i]]){
+		if (frm.doc[fields[i]]){ 
 			total += frm.doc[fields[i]]
 		}
 
 	}
 	if ( frm.doc.actual_production) {
-		frm.set_value("kpis_second_degree" , total)
+		frm.set_value("kpis_second_degree" , total / frm.doc.actual_production)
 	} else {
 		frm.set_value("kpis_second_degree" , 0)
 	}

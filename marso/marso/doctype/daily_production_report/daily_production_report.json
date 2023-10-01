@@ -205,18 +205,20 @@
   {
    "fieldname": "kpis_frist_degree",
    "fieldtype": "Float",
-   "label": "KPI's Frist Degree"
+   "label": "KPI's Frist Degree",
+   "read_only": 1
   },
   {
    "fieldname": "kpis_second_degree",
    "fieldtype": "Float",
-   "label": "KPI's Second Degree"
+   "label": "KPI's Second Degree",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-09-27 15:56:52.992053",
+ "modified": "2023-10-01 13:23:57.367470",
  "modified_by": "Administrator",
  "module": "marso",
  "name": "Daily Production Report",
