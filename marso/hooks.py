@@ -187,7 +187,7 @@ fixtures = [
     {
         "dt": ("Custom Field"),
         "filters": [
-    		["dt", "in", ("Sales Invoice" , "Quotation" , "Sales Order" , "Delivery Note" , "Sales Invoice" , "Item")] ,
+    		["dt", "in", ("Sales Invoice" , "Quotation" , "Sales Order" , "Delivery Note" , "Sales Invoice" , "Item","Quotation Item")] ,
             ["fieldname" , "in" ,(
                 "merge_items" , 
                 "documents" , 
