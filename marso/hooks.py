@@ -221,6 +221,16 @@ fixtures = [
                 "column_break_d5rrx",
                 "required_weight",
 				"export_details",
+				#Add Here
+				"column_break_ybtvi",
+				"bank",			
+				"section_break_txtgb",
+				"hs_code",
+				"hs_code",
+				"packaging",
+				"packaging_type",
+				"column_break_wnnnk",
+				"packaging_number",
 			)],
             
         ]
