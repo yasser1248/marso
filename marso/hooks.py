@@ -235,6 +235,7 @@ fixtures = [
 				"swift_number",
 				"bank_account",
 				"bank_account_no",
+				"iban",
 			)],
             
         ]
