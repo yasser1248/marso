@@ -32,7 +32,7 @@ app_license = "MIT"
 
 # include js in doctype views
 doctype_js = {"Sales Invoice" : "public/js/sales_invoice.js",
-                "Quotation":"public/js/quotation.js"}
+                "Quotation":"public/js/quotation.js", "Journal Entry": "public/js/journal_entry.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -239,6 +239,12 @@ fixtures = [
 			)],
             
         ]
+    },
+    {
+        "dt": ("Property Setter"),
+        "filters": [
+            ["doc_type", "in", ("Journal Entry Account",)],
+        ],
     },
     # {
     #     "doctype": ("Print Format"),

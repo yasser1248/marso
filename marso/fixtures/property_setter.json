@@ -1,0 +1,36 @@
+[
+ {
+  "default_value": null,
+  "doc_type": "Journal Entry Account",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocType",
+  "field_name": null,
+  "modified": "2022-02-21 12:36:05.925567",
+  "name": "Journal Entry Account-main-allow_import",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "property": "allow_import",
+  "property_type": "Check",
+  "row_name": null,
+  "value": "1"
+ },
+ {
+  "default_value": null,
+  "doc_type": "Journal Entry Account",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "reference_type",
+  "modified": "2023-12-12 09:27:17.102351",
+  "name": "Journal Entry Account-reference_type-options",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "property": "options",
+  "property_type": "Text",
+  "row_name": null,
+  "value": "\nSales Invoice\nPurchase Invoice\nJournal Entry\nSales Order\nPurchase Order\nExpense Claim\nAsset\nLoan\nPayroll Entry\nEmployee Advance\nExchange Rate Revaluation\nInvoice Discounting\nFees\nPayment Entry"
+ }
+]
