@@ -18,7 +18,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Production Audit",
+   "label": "Doctype",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
@@ -26,8 +26,8 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Production Audit",
-   "link_to": "Production Audit",
+   "label": "Daily Production Report",
+   "link_to": "Daily Production Report",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -35,22 +35,31 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": " Quality Shift",
+   "label": "Daily Report of Quality Inspection",
+   "link_to": "Daily Report of Quality Inspection",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Report",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
   },
   {
    "hidden": 0,
-   "is_query_report": 0,
-   "label": " Quality Shift",
-   "link_to": "Quality Shift",
-   "link_type": "DocType",
+   "is_query_report": 1,
+   "label": "Quality Daily Production Report",
+   "link_to": "Quality Daily Production Report",
+   "link_type": "Report",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2023-07-13 13:58:09.107532",
+ "modified": "2024-01-23 11:52:36.048000",
  "modified_by": "Administrator",
  "module": "marso",
  "name": "Quality EXT",
